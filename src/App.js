@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import ItemList from './components/ItemList';
+import Template from './components/Template';
 
 class App extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				<ItemList />
+				<Template />
 			</div>
 		);
 	}
